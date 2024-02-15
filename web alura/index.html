@@ -1,0 +1,87 @@
+<!--declarando la vercion de html en la que esta escrita-->
+<!DOCTYPE html>
+<!--inicio de nuestro codigo y el idioma -->
+<html lang="es">
+    <!--cabezera de nuestro codigo parte no visible para el usuario-->
+     <head>
+        <!--etiqueta de diccionario de caracteres-->
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <!--titulo de la pagina web-->
+        <title>Barbería Alura</title>
+        <!--links de referencia con los archivos CSS-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <!--link de fuentes de google-->
+        <link href="https: //fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,300 & display=swap" rel="stylesheet">
+     </head>
+     <!--cuerpo de nuestro codigo parte visible para el usuario-->
+    <body>
+        <!--encabezado de la pagina web-->
+        <header>
+            <!--division caja para el encabezado -->
+            <div class="caja">
+                <!--imagen del encabezado-->
+                <h1><img src="imagenes/logo.png"alt="logo de barberia"></h1>
+                <!--etiqueta de lista de navegacion-->
+                <nav>
+                    <!--lista no ordenada "unorder list"-->
+                    <ul>
+                        <!--etiqueta 'a' sirve para referenciar otros archivos html-->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>            
+        </header>
+        <!--etiqueta IMG para agragar imagenes y ALT para describir la imagen agregada-->
+        <img class="banner" src="banner/banner.jpg" alt="imagen de un barbero">
+    <!--main es la parte cetral de la pagina-->
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+            <img class="utensilios" src="imagenes/utensilios.jpg" alt="imagen de utensilios de barbero">
+    
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+    
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+    
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+                
+        </section>
+        <section class="mapa">
+            <h3 class="titulo-principal">Nuestra ubicacion</h3>
+            <p>Nuestro establesimiento esta ubicado en el corazon de la ciudad</p>
+           <div class="mapa-contenido"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.710178843373!2d-117.0418124255256!3d32.53388669637355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9490758eab9f9%3A0xaf9865cf4499dea1!2sCarrillo%20Puerto%20y%20o%20Tercera%208082-8006%2C%20Zona%20Centro%2C%2022000%20Tijuana%2C%20B.C.!5e0!3m2!1sen!2smx!4v1707453533798!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="diferenciales">
+            <h3 class="titulo-principal">Diferenciales</h3>
+
+            <div class="contenido-diferenciales">
+                <ul class="lista-diferenciales">
+                    <li class="items">ATENCION PERSONALIZADA</li>
+                    <li class="items">ESPACIO DIFERENCIADO</li>
+                    <li class="items">PROFECIONALES CERTIFICADOS</li>
+                    <li class="items">LOCALIZACION</strong></li>
+                    <li class="items">PUNTUALIDAD</li>
+                    <li class="items">LIMPIEZA</li>
+                    </ul><img src="dif/dif.jpg" class="imagen-Diferenciales" alt="imagen de una silla de peluquero" >
+               
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0ZKafmtKW0g?si=sG7P8_rK9v4DwShY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>    
+       
+    </main>  
+    <!--pie de la pagina web-->
+        <footer>
+            <img src="imagenes/logo-blanco.png" alt="logo de barberia">
+            <p class="Copyright">&copy; Copyright Barberia Alura 2024</p>
+        </footer>
+    </body>
+<!--final de nuestro codigo html-->
+</html>
